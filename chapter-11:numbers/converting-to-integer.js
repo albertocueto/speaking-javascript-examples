@@ -1,0 +1,21 @@
+'use strict';
+console.log('Math.floor(3.8): ' + Math.floor(3.8));
+console.log('Math.floor(-3.8): ' + Math.floor(-3.8));
+console.log('Math.ceil(3.2): ' + Math.ceil(3.2));
+console.log('Math.ceil(-3.2): ' + Math.ceil(-3.2));
+console.log('Math.round(3.2): ' + Math.round(3.2));
+console.log('Math.round(3.5): ' + Math.round(3.5));
+console.log('Math.round(3.8): ' + Math.round(3.8));
+console.log('Math.round(-3.2): ' + Math.round(-3.2));
+console.log('Math.round(-3.5): ' + Math.round(-3.5));
+console.log('Math.round(-3.8): ' + Math.round(-3.8));
+console.log('parseInt(12.5):' + parseInt(12.5));
+console.log('parseInt("12.5"): ' + parseInt("12.5"));
+console.log('parseInt("0xA"): ' + parseInt("0xA"));
+console.log('parseInt("010"): ' + parseInt("010"));
+console.log('parseInt("A", 16): ' + parseInt("A", 16));
+console.log('parseInt("0109"): ' + parseInt("0109"));
+console.log('parseInt(""): ' + parseInt(''));
+console.log('parseInt("zz", 36): ' + parseInt('zz', 36));
+console.log('parseInt(10000000000000000000000.5, 10): ' + parseInt(10000000000000000000000.5, 10));
+console.log('String(10000000000000000000000.5): ' + String(10000000000000000000000.5)); //e then is not parsed correctly as an int and everything else is ignored.
